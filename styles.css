@@ -55,17 +55,3 @@ footer {
     border: 2px solid #ccc;
     border-radius: 8px;
 }
-
-.carousel button {
-    margin: 1em;
-    padding: 0.5em 1em;
-    background-color: #2c3e50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.carousel button:hover {
-    background-color: #34495e;
-}
