@@ -16,6 +16,7 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center; /* Center the navigation */
 }
 
 nav ul li {
@@ -30,6 +31,7 @@ nav ul li a {
 
 main {
     padding: 2em;
+    text-align: center; /* Center the main content */
 }
 
 footer {
