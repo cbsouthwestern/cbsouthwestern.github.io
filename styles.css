@@ -42,28 +42,30 @@ footer {
     bottom: 0;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    justify-content: center;
-}
-
-.gallery-image {
-    width: 200px;
-    height: auto;
-    margin: 10px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    transition: transform 0.2s;
-}
-
-.gallery-image:hover {
-    transform: scale(1.1);
-}
-
-.multimedia {
+.carousel {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.carousel button {
+    margin: 1em;
+    padding: 0.5em 1em;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.carousel button:hover {
+    background-color: #34495e;
 }
