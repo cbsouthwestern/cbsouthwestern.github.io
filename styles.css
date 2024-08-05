@@ -52,9 +52,29 @@ footer {
 }
 
 .carousel img {
-    max-width: 90%; /* Adjusted width to fit within the view */
+    width: 50%; /* Smaller width for the image */
     height: auto;
     border: 2px solid #ccc;
     border-radius: 8px;
     margin-bottom: 50px; /* Add margin to avoid cutting off */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
 }
