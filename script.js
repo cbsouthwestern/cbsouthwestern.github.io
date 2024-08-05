@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const images = [
-        'https://example.com/image1.jpg',
+        'https://i.etsystatic.com/15020412/r/il/455abc/2328156575/il_570xN.2328156575_4m7l.jpg',
         'https://example.com/image2.jpg',
         'https://example.com/image3.jpg',
         // Add more image URLs here
