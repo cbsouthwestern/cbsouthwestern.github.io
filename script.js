@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const images = [
-        'images/image1.jpg',
-        'images/image2.jpg',
-        'images/image3.jpg',
-        // Add more image paths here
+        'https://example.com/image1.jpg',
+        'https://example.com/image2.jpg',
+        'https://example.com/image3.jpg',
+        // Add more image URLs here
     ];
 
     const galleryDiv = document.getElementById('gallery');
